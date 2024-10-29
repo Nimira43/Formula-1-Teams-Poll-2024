@@ -17,12 +17,14 @@ body {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.9);
-  padding: 20px;
+  width: 90%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
   border-radius: 5px;
-  border: 1px solid orangered;
+  border: 4px solid #ff4500;
   text-align: center;
-  color: khaki;
+  color: #f0e68c;
   animation: cardAnimation 1s ease-in-out;
 }
 
@@ -38,19 +40,19 @@ body {
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: 200;
+  font-size: 30px;
+  font-weight: 700;
   line-height: 1;
   margin: 0;
 }
 
 .poll {
-  margin-top: 5px;
+  margin: 15px;
 }
 
 h2 {
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 25px;
+  font-weight: 500;
   margin-bottom: 15px;
 }
 
@@ -66,18 +68,46 @@ input[type="radio"] {
 
 label {
   display: inline-block;
-  background-color: orangered;
-  padding: 3px 6px;
-  border-radius: 5px;
+  background-color: #ff4500;
+  color: #111;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 3px;
   cursor: pointer;
-  margin: 2px;
-  transition: background-color 0.3s;
+  margin: 8px;
+  transition: color 0.3s ease-in;
+}
+
+label:hover {
+  color: #f0e68c;
 }
 
 .option {
-  color: khaki;
+  color: #f0e68c;
 }
 
+button {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  background-color: #f0e68c;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+button:hover {
+  color: #ff4500;
+}
+
+button:active {
+  transform: scale(0.98);
+}
 
 
 
