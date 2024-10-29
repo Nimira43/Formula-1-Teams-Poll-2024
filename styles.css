@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background-color: #222;
+  background-color: #333;
   padding: 20px 40px;
   border-radius: 5px;
   border: 4px solid #fff;
@@ -57,7 +57,7 @@ h2 {
 }
 
 .option {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 input[type="radio"] {
@@ -87,33 +87,60 @@ label {
 .option-1 {
   color: #ffd700;
   background-color: #8b0000;
-  border: 2px solid #ffd700;
+  border: 3px solid #000;
+  transition: all 0.3s ease-in;
 }
+
 .option-2 {
   color: #000;
   background-color: #ff8c00;
-  border: 2px solid #4ab9e5;
+  border: 3px solid #329cc7;
+  transition: all 0.3s ease-in;
+
 }
 .option-3 {
   color: #40e0d0;
   background-color: #000;
-  border: 2px solid #b5aeae;
+  border: 3px solid #b5aeae;
+  transition: all 0.3s ease-in;
 }
+
 .option-4 {
   color: #fdde2d;
   background-color: #00008b;
-  border: 2px solid #f82525;
+  border: 3px solid #f82525;
+  transition: all 0.3s ease-in;
+}
+
+.option-1:hover {
+  color: #000;
+  border: 3px solid #ffd700;
+}
+
+.option-2:hover {
+  color: #329cc7;
+  border: 3px solid #000;
+}
+
+.option-3:hover {
+  color: #b5aeae;
+  border: 3px solid #40e0d0;
+}
+
+.option-4:hover {
+  color: #f82525;
+  border: 3px solid #fdde2d;
 }
 
 button {
-  margin: 10px;
+  margin: 15px;
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
   padding: 5px 10px;
   background-color: transparent;
   color: #fff;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 3px;
   cursor: pointer;
   transition: all 0.3s ease-in;
@@ -121,7 +148,7 @@ button {
 
 button:hover {
   color: #ff0000;
-  border: 5px solid #ff0000;
+  border: 3px solid #ff0000;
 }
 
 button:active {
