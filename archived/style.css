@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url('./images/bg.jpg') center no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+  width: 90%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 5px;
+  border: 4px solid #ff4500;
+  text-align: center;
+  color: #f0e68c;
+  animation: cardAnimation 1s ease-in-out;
+}
+
+@keyframes cardAnimation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+.poll {
+  margin: 15px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  background-color: #ff4500;
+  color: #111;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 8px;
+  transition: color 0.3s ease-in;
+}
+
+label:hover {
+  color: #f0e68c;
+}
+
+.option {
+  color: #f0e68c;
+}
+
+.option:hover
+
+button {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  background-color: #f0e68c;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+button:hover {
+  color: #ff4500;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+
+
