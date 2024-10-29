@@ -35,19 +35,18 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 700;
-  line-height: 1;
-  margin: 0;
+  font-weight: 500;
+  opacity: 1;
 }
 
 .poll {
-  margin: 15px;
+  margin-top: 20px;
 }
 
 h2 {
   font-size: 25px;
-  font-weight: 500;
-  margin-bottom: 15px;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .options {
@@ -56,33 +55,54 @@ h2 {
   align-items: center;
 }
 
+.option {
+  margin-bottom: 20px;
+}
+
 input[type="radio"] {
   display: none;
 }
 
 label {
   display: inline-block;
-  background-color: #ff4500;
-  color: #111;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 900;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 8px 16px;
+  padding: 10px 20px;
   border-radius: 3px;
   cursor: pointer;
-  margin: 8px;
   transition: color 0.3s ease-in;
 }
 
-label:hover {
+/* label:hover {
   color: #f0e68c;
-}
+} */
 
-.option {
+/* .option {
   color: #f0e68c;
-}
+} */
 
-.option:hover
+.option-1 {
+  color: #ffd700;
+  background-color: #8b0000;
+  border: 5px solid #ffd700;
+}
+.option-2 {
+  color: #000;
+  background-color: #ff8c00;
+  border: 5px solid #4ab9e5;
+}
+.option-3 {
+  color: #40e0d0;
+  background-color: #000;
+  border: 5px solid #b5aeae;
+}
+.option-4 {
+  color: #fdde2d;
+  background-color: #00008b;
+  border: 5px solid #f82525;
+}
 
 button {
   margin-top: 15px;
