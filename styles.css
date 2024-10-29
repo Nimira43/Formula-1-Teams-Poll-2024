@@ -10,6 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'League Spartan', sans-serif;
+  user-select: none;
 }
 
 .container {
@@ -80,9 +81,9 @@ label {
   color: #f0e68c;
 } */
 
-/* .option {
+.option {
   color: #f0e68c;
-} */
+}
 
 .option-1 {
   color: #ffd700;
@@ -155,7 +156,7 @@ button:active {
   transform: scale(0.98);
 }
 
-#result {
+.result {
   margin-top: 15px;
   font-size: 20px;
   color: #fff;
